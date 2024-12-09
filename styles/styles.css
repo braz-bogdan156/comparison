@@ -131,69 +131,19 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-    body {
-        margin: 0;
-        background-color: #1565c0;
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    .comparison {
-        width: 100%;
-        max-width: none;
-        border-radius: 0;
-    }
-
-    .comparison__header {
-        flex-direction: column;
-        padding: 10px 0;
-    }
-
-    .comparison__vs {
-        margin: 20px 0;
-        font-size: 20px;
-    }
-
-    .comparison__features {
-        display: block;
-        padding: 10px 0;
-        }
-        .comparison__feature{
-            max-width: 200px;
-            margin-left: 30%;
-        }
     
-        .comparison__mark{
-            margin-left: 50%;
-        }
-
-    .comparison__row {
-        flex-direction: column;
-        padding: 10px 0;
-        gap: 15px;
-       
-    }
-    
-   
-    .comparison__mark, .comparison__feature {
-        flex: none;
-        text-align: left;
-        width: 100%;
-    }
-
-    .comparison__scores {
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .comparison__score {
-        margin: 0 auto;
-    }
-
-    .comparison__avatar-img {
-        width: 60px;
-        height: 60px;
-    }
+.comparison__vs{
+    margin-bottom: 60px;
+}
+.comparison__header{
+    padding-bottom: 5px;
+}
+.comparison__features{
+    padding: 5px 10px;
+}
+.comparison__row {
+    padding: 5px 0;
+}
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
