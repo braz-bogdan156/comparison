@@ -129,3 +129,149 @@ body {
     object-fit: cover;
     border: 8px solid #5d7bc9;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+    body {
+        margin: 0;
+        background-color: #1565c0;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .comparison {
+        width: 100%;
+        max-width: none;
+        border-radius: 0;
+    }
+
+    .comparison__header {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .comparison__vs {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+
+    .comparison__features {
+        display: block;
+        padding: 10px 0;
+        }
+        .comparison__feature{
+            max-width: 200px;
+            margin-left: 30%;
+        }
+    
+        .comparison__mark{
+            margin-left: 50%;
+        }
+
+    .comparison__row {
+        flex-direction: column;
+        padding: 10px 0;
+        gap: 15px;
+       
+    }
+    
+   
+    .comparison__mark, .comparison__feature {
+        flex: none;
+        text-align: left;
+        width: 100%;
+    }
+
+    .comparison__scores {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .comparison__score {
+        margin: 0 auto;
+    }
+
+    .comparison__avatar-img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .comparison {
+        width: 80%;
+        max-width: none;
+    }
+
+    .comparison__header {
+        padding: 15px 0;
+    }
+
+    .comparison__vs {
+        font-size: 22px;
+    }
+
+    .comparison__features {
+        padding: 15px 0;
+    }
+
+    .comparison__row {
+        padding: 15px 0;
+    }
+
+    .comparison__mark, .comparison__feature {
+        font-size: 20px;
+    }
+
+    .comparison__scores {
+        padding: 15px 0;
+    }
+
+    .comparison__score-number {
+        font-size: 28px;
+    }
+
+    .comparison__avatar-img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+    .comparison {
+        width: 70%;
+        max-width: none;
+    }
+
+    .comparison__header {
+        padding: 20px 0;
+    }
+
+    .comparison__vs {
+        font-size: 24px;
+    }
+
+    .comparison__features {
+        padding: 20px 0;
+    }
+
+    .comparison__row {
+        padding: 20px 0;
+    }
+
+    .comparison__mark, .comparison__feature {
+        font-size: 22px;
+    }
+
+    .comparison__scores {
+        padding: 20px 0;
+    }
+
+    .comparison__score-number {
+        font-size: 30px;
+    }
+
+    .comparison__avatar-img {
+        width: 75px;
+        height: 75px;
+    }
+}
