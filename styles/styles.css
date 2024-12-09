@@ -1,0 +1,131 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+:root{
+    --second-family: 'Montserrat', sans-serif
+}
+
+.comparison {
+    background-color: #1565c0;
+    color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.comparison__header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.comparison__item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comparison__image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border: 8px solid #5d7bc9;
+}
+
+
+
+.comparison__vs {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.comparison__features {
+  padding: 20px 10px;
+}
+
+.comparison__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.comparison__mark {
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.comparison__feature {
+    flex: 2;
+    text-align: center;
+}
+
+
+.comparison__scores {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: #1565c0;
+}
+
+.comparison__score {
+    text-align: center;
+}
+
+.comparison__score-number {
+    font-family: var(--second-family);
+    font-size: 30px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.comparison__score-number::before{
+    position: absolute;
+    display: inline-block;
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #5d7bc9;
+    z-index: -1;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+   }
+
+.comparison__line {
+    border: 0; 
+    height: 1px; 
+    background-color: white;
+    opacity: 0.25;
+}
+
+.comparison__avatar-img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 8px solid #5d7bc9;
+}

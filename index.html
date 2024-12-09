@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison Block</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <main class="comparison">
+        <section class="comparison__header">
+            <article class="comparison__item">
+                <img src="./images/nuster.png" alt="Nuster 3.0" class="comparison__image">
+                <h2 class="comparison__title">Nuster 3.0</h2>
+            </article>
+            <div class="comparison__vs">VS</div>
+            <article class="comparison__item">
+                <img src="./images/tesla.png" alt="Tesla" class="comparison__image">
+                <h2 class="comparison__title">Tesla</h2>
+            </article>
+        </section>
+
+        <section class="comparison__features">
+            <hr class="comparison__line">
+            <div class="comparison__row" data-feature="leise">
+                <div class="comparison__mark" data-nuster></div>
+                <div class="comparison__feature">Leise</div>
+                <div class="comparison__mark" data-tesla></div>
+            </div>
+            <hr class="comparison__line">
+            <div class="comparison__row" data-feature="weather">
+                <div class="comparison__mark" data-nuster></div>
+                <div class="comparison__feature">Funktioniert bei jedem Wetter</div>
+                <div class="comparison__mark" data-tesla></div>
+            </div>
+            <hr class="comparison__line">
+            <div class="comparison__row" data-feature="eggs">
+                <div class="comparison__mark" data-nuster></div>
+                <div class="comparison__feature">Gibt dir glatte Eier</div>
+                <div class="comparison__mark" data-tesla></div>
+            </div>
+            <hr class="comparison__line">
+            <div class="comparison__row" data-feature="girls">
+                <div class="comparison__mark" data-nuster></div>
+                <div class="comparison__feature">Hilft Mädels aufzureißen</div>
+                <div class="comparison__mark" data-tesla></div>
+            </div>
+            <hr class="comparison__line">
+        </section>
+
+        <section class="comparison__scores">
+            <div class="comparison__score" data-nuster-score>
+                <span class="comparison__score-number">0</span>
+                
+            </div>
+            <div class="comparison__avatar">
+                <img src="./images/avatar.png" alt="avatar" class="comparison__avatar-img">
+            </div>
+            <div class="comparison__score" data-tesla-score>
+                <span class="comparison__score-number">0</span>
+               
+            </div>
+        </section>
+    </main>
+    <script src="./scripts/javascript.js"></script>
+</body>
+</html>
